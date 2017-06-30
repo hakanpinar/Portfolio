@@ -1,0 +1,16 @@
+.navigatiebalk{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+
+#title{
+    color: white;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 600px){
+   .navigatiebalk{
+       display: none;
+   }
+}
