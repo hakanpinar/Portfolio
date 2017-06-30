@@ -1,6 +1,6 @@
 .navigatiebalk{
     background-color: black;
-    height: 500px;
+    height: auto;
     width: 100%;
 }
 
@@ -9,8 +9,28 @@
     font-size: 80px;
 }
 
-@media screen and (max-width: 600px){
-   .navigatiebalk{
-       display: none;
-   }
+.btn-primary{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover{
+    box-shadow: inset 0 0 0 1px white;
+}
+
+.titles{
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.span{
+    font-size:15px;
+    font-style: oblique;
+    font-weight: lighter;
 }
